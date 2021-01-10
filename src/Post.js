@@ -4,8 +4,6 @@ import './Post.css'
 import ThumbsUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined'
 import InputOption from './InputOption'
 import ChatOutlinedIcon from '@material-ui/icons/ChatOutlined'
-import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined'
-import SendOutlinedIcon from '@material-ui/icons/SendOutlined'
 
 const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
   return (
@@ -21,10 +19,12 @@ const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
         <p>{message}</p>
       </div>
       <div className='post__buttons'>
-        <InputOption Icon={ThumbsUpAltOutlinedIcon} title='Like' color='gray' />
-        <InputOption Icon={ChatOutlinedIcon} title='Comment' color='gray' />
-        <InputOption Icon={ShareOutlinedIcon} title='Share' color='gray' />
-        <InputOption Icon={SendOutlinedIcon} title='Send' color='gray' />
+        <InputOption
+          Icon={ThumbsUpAltOutlinedIcon}
+          title='Like'
+          color='white'
+        />
+        <InputOption Icon={ChatOutlinedIcon} title='Comment' color='white' />
       </div>
     </div>
   )

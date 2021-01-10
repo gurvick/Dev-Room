@@ -22,11 +22,11 @@ function Widgets() {
         <InfoIcon />
       </div>
       {newsArticle("Check out Gurvick Ghai, he's dope", 'Top news')}
-      {newsArticle("Check out Gurvick Ghai, he's dope", 'Top news')}
-      {newsArticle("Check out Gurvick Ghai, he's dope", 'Top news')}
-      {newsArticle("Check out Gurvick Ghai, he's dope", 'Top news')}
-      {newsArticle("Check out Gurvick Ghai, he's dope", 'Top news')}
-      {newsArticle("Check out Gurvick Ghai, he's dope", 'Top news')}
+      {newsArticle("Check out Harsh Gandhi, he's dope", 'Top news')}
+      {newsArticle("Check out Hassan Ali Amjad, he's dope", 'Top news')}
+      {newsArticle("Check out Elon Musk, he's dope", 'Top news')}
+      {newsArticle("Check out Jeff Bezos, he's dope", 'Top news')}
+      {newsArticle("Check out Bill Gates, he's dope", 'Top news')}
     </div>
   )
 }

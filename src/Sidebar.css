@@ -12,23 +12,24 @@
 }
 
 .sidebar__top > h4 {
-  color: gray;
+  color: lightgray;
   font-size: 12px;
 }
 
 .sidebar__top > h2 {
   font-size: 18px;
+  color: whitesmoke;
 }
 
 .sidebar__top {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid lightgray;
+  border: 1px solid #121212;
   border-bottom: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: white;
+  background-color: #292929;
   padding-bottom: 10px;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .sidebar__stat > p {
-  color: gray;
+  color: whitesmoke;
   font-size: 13px;
   font-weight: 600;
 }
@@ -56,22 +57,22 @@
 .sidebar__stats {
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid lightgray;
-  background-color: white;
+  border: 1px solid #121212;
+  background-color: #292929;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .sidebar__statNumber {
   font-weight: bold;
-  color: #a800fe !important;
+  color: #ffffff !important;
 }
 
 .sidebar__bottom {
   text-align: left;
   padding: 10px;
-  border: 1px solid lightgray;
-  background-color: white;
+  border: 1px solid #121212;
+  background-color: #292929;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -79,7 +80,7 @@
 .sidebar__recentItem {
   display: flex;
   font-size: 13px;
-  color: gray;
+  color: whitesmoke;
   font-weight: bolder;
   cursor: pointer;
   margin-bottom: 5px;
@@ -91,11 +92,11 @@
   padding-bottom: 10px;
 }
 
-.sidebar__recentItem:thover {
-  background-color: whitesmoke;
+.sidebar__recentItem:hover {
+  background-color: #121212;
   border-radius: 10px;
   cursor: pointer;
-  color: black;
+  color: #a800fe;
 }
 
 .sidebar__hash {

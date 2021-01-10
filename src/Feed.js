@@ -3,9 +3,6 @@ import './Feed.css'
 import CreateIcon from '@material-ui/icons/Create'
 import ImageIcon from '@material-ui/icons/Image'
 import InputOption from './InputOption'
-import EventNoteIcon from '@material-ui/icons/EventNote'
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
-import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay'
 import Post from './Post'
 import { db } from './firebase'
 import firebase from 'firebase'
@@ -61,14 +58,7 @@ function Feed() {
           </form>
         </div>
         <div className='feed__inputOptions'>
-          <InputOption Icon={ImageIcon} title='Photo' color='#7086f9' />
-          <InputOption Icon={SubscriptionsIcon} title='Photo' color='#E7A33E' />
-          <InputOption Icon={EventNoteIcon} title='Photo' color='#C0CBCD' />
-          <InputOption
-            Icon={CalendarViewDayIcon}
-            title='Photo'
-            color='#7FC15E'
-          />
+          <InputOption Icon={ImageIcon} title='Photo' color='#a800fe' />
         </div>
       </div>
       <FlipMove>
