@@ -55,10 +55,7 @@ function Login() {
   }
   return (
     <div className='login'>
-      <img
-        src='https://r70.cooltext.com/rendered/cooltext373529734409673.png'
-        alt=''
-      />
+      <img src='/images/DevRoomActual.png' alt='' />
       <form>
         <input
           value={name}

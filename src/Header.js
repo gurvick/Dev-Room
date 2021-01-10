@@ -16,11 +16,7 @@ function Header() {
   return (
     <div className='header'>
       <div className='header__left'>
-        <img
-          src='http://r67.cooltext.com/d.php?renderid=373529807142997&extension=png'
-          alt=''
-        />
-
+        <img src='/images/DevRoomDev.png' alt='' />
         <div className='header__search'>
           <SearchIcon />
           <input placeholder='Search' type='text' />

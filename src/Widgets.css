@@ -22,7 +22,7 @@
   color: white;
 }
 
-.widgets__header > .MuiSvgIcon-root {
+.widgets__header > a {
   color: white;
 }
 
